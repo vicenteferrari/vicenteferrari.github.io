@@ -13,7 +13,7 @@ body {
 	background: #F2F2F2;
 	margin: 60px auto;
 	width: 70%;
-	position: relative;
+	overflow-y: scroll;
 }
 
 nav ul, footer ul {
