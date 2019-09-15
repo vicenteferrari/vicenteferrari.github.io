@@ -2,14 +2,14 @@
 
 html {
 	box-sizing: border-box;
-	
 }
 
 body {
 	font-family: 'Roboto Condensed', sans-serif;
 	background: #F2F2F2;
-	margin: 60px 200px;
+	margin: 60px auto;
 	width: 70%;
+	position: relative;
 }
 
 nav ul, footer ul {
@@ -56,4 +56,8 @@ ul.posts {
 
 ul.posts li {
 	list-style: none;
+}
+
+.container {
+	
 }
