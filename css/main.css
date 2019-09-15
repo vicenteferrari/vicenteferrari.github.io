@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 html {
 	box-sizing: border-box;
 }
