@@ -1,11 +1,172 @@
 ---
 layout: default
 title: Vicente Ferrari's CV
+custom_css: cv
 ---
 <h1>{{ page.title }}</h1>
-<ul class="cv">
 
-{% for post in site.posts %}
-	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+<div class="container">
+	<section>
+		<div>
+			<img src="/assets/me.png" alt="avatar" class="avatar">
+		</div>
+		<div>
+			<div class="my-name">Vicente Ferrari</div>
+			<div class="my-title">Software Engineer</div>
+			<div class="links">
+				<div class="link-item">
+					<!--taken from font awesome-->
+					<img class="icon" src="/assets/link-solid.svg" alt="link-solid">
+					<a href="https://vferrari.me">vferrari.me</a>
+				</div>
+				<div class="link-item">
+					<!--taken from font awesome-->
+					<img class="icon" src="/assets/envelope-solid.svg" alt="envelope-solid">
+					<a href="mailto:vferrari@vferrari.me">vfs@vferrari.me</a>
+				</div>
+				<div class="link-item">
+					<!--taken from font awesome-->
+					<img class="icon" src="/assets/mobile-solid.svg" alt="mobile-solid">
+					<a href="tel:+56931098047">+56931098047</a>
+				</div>
+			</div>
+			<p>
+				Smart, pretty boy uwu
+			</p>
+		</div>
+	</section>
+
+	<section>
+		<div class="section-title">Experience</div>
+		<div>
+			<div class="job">
+				<div class="job-title-container">
+					<div>
+						<div class="job-company">Applied Optics Lab</div>
+						<div class="job-title">Data scientist</div>
+					</div>
+					<div>
+						November 2017 - March 2019
+					</div>
+				</div>
+			</div>
+
+			<div class="job">
+				<div class="job-title-container">
+					<div>
+						<div class="job-company">Modelling and Scientific Computing Centre of Exellence</div>
+						<div class="job-title">Cryptography research</div>
+					</div>
+					<div>
+						March 2019 -
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="section-title">Education</div>
+		<div>
+			<div class="job">
+				<div class="job-title-container">
+					<div>
+						<div class="job-company">Universidad de La Frontera</div>
+						<div class="job-title">Software Engineering</div>
+					</div>
+					<div>
+						March 2017 -
+					</div>
+				</div>
+			</div>
+
+			<div class="job">
+				<div class="job-title-container">
+					<div>
+						<div class="job-company">Universidad de La Frontera</div>
+						<div class="job-title">Masters in Software Engineering</div>
+					</div>
+					<div>
+						March 2019 -
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="section-title">Skills</div>
+		<div>
+			<div class="skills-container">
+				<ul>
+					<li>Python</li>
+					<li>C++</li>
+					<li>Java</li>
+					<li>MatLab</li>
+				</ul>
+
+				<ul>
+					<li>C</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+				</ul>
+
+				<ul>
+					<li>PHP</li>
+					<li>Latex</li>
+					<li>Formal writing</li>
+					<li>Project management</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="section-title">Interests</div>
+		<div class="interests-container">
+			<!--taken from font awesome-->
+			<img src="/assets/atom-solid.svg" alt="atom-solid">
+			<!--taken from font awesome-->
+			<img src="/assets/laptop-code-solid.svg" alt="laptop-code-solid">
+			<!--taken from font awesome-->
+			<img src="/assets/calculator-solid.svg" alt="calculator-solid">
+		</div>
+	</section>
+
+	<section>
+		<div class="section-title">Extra</div>
+		<div>
+			<div class="job">
+				<div class="job-title-container">
+					<div>
+						<div class="job-company">King Arthur's Gold</div>
+						<div class="job-title">Player management system</div>
+					</div>
+					<div>
+						2018
+					</div>
+				</div>
+			</div>
+	
+			<div class="job">
+				<div class="job-title-container">
+					<div>
+						<div class="job-company">Gravity measuring experiment</div>
+						<div class="job-title"></div>
+					</div>
+					<div>
+						2014
+					</div>
+				</div>
+				<p>
+					Controlled by an arduino, I set up an electromagnet and hanged a metal object
+					exactly 1 meter off the ground. With the arduino I could turn the electromagnet off
+					and start timing how long it took the object to fall. Once it hit the ground, it actioned
+					a button, signaling the arduino to stop timing. With this I was able to then
+					calculate the gravitational constant at sea level.
+				</p>
+			</div>
+		</div>
+	</section>
+</div>
