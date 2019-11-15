@@ -118,6 +118,14 @@ img.avatar {
 	justify-content: space-evenly;
 }
 
+.interests-container figure {
+	display: flex;
+    flex-flow: column;
+    padding: 15px;
+    max-width: 220px;
+    margin: auto;
+}
+
 .interests-container img {
 	height: 35px;
 	opacity: 0.75;
