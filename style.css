@@ -1,0 +1,30 @@
+video {
+    width: 50%;
+}
+
+img {
+    width: 50%;
+}
+
+header {
+    text-align: left;
+}
+
+h1 {
+    font-size: 48pt;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+
+    background-image: radial-gradient(#eaeaea, #e6e6e6);
+
+    color: #202020;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
