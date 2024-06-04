@@ -1,0 +1,47 @@
+video {
+	width: 50%;
+}
+
+img {
+	width: 50%;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: left;
+}
+
+h1 {
+	font-size: 48pt;
+}
+
+.center {
+	text-align: center;
+}
+
+body {
+	position: relative;
+	font-family: 'Vollkorn';
+
+	background-image: radial-gradient(#eaeaea, #e0e0e0);
+
+	color: #202020;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10%;
+	margin-right: 10%;
+	min-height: 100%;
+}
+
+main {
+	padding-bottom: 2.5rem;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
