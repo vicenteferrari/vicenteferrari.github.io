@@ -37,7 +37,11 @@ body {
 }
 
 main {
-	padding-bottom: 2.5rem;
+	padding-bottom: 4.5rem;
+}
+
+aside {
+	padding-bottom: 4.5rem;
 }
 
 footer {
