@@ -1,3 +1,13 @@
+.ipa {
+	font-family: 'serif';
+	font-size: 12pt;
+	margin-left: 1em;
+}
+
+.inline {
+	display: inline-block;
+}
+
 video {
 	width: 50%;
 }
@@ -9,12 +19,36 @@ img {
 header {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: start;
 	text-align: left;
+	margin-top : 2rem;
+
+	font-weight: bold;
+}
+
+header a {
+	margin: 0.5rem;
+	font-size: 13pt;
+	font-family: "Roboto Mono";
+}
+
+blockquote {
+	font-style: italic;
+	border-left:8px solid #78C0A8;
+	background: rgb(212, 212, 212, 220);
+	padding: 1rem;
+}
+
+p {
+	font-size: 14pt;
 }
 
 h1 {
-	font-size: 48pt;
+	font-size: 36pt;
+}
+
+h2 {
+	font-size: 24pt;
 }
 
 .center {
@@ -29,15 +63,14 @@ body {
 
 	color: #202020;
 
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 10%;
-	margin-right: 10%;
 	min-height: 100%;
+	width: 70%;
+	margin: auto;
 }
 
 main {
 	padding-bottom: 4.5rem;
+	margin-top: 1rem;
 }
 
 aside {
@@ -48,4 +81,14 @@ footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	margin-bottom: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+
+a:hover {
+	text-decoration: underline;
 }
